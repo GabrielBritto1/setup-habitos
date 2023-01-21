@@ -17,66 +17,30 @@
 
 <body>
 
-    <header id="header-habitos">
+    <header id="header-habits">
 
         <img src="./assets/img/habits.svg" alt="habits">
 
         <button class="botao_registro">
-            <img src="./assets/img/plus.svg" alt="ícone plus roxo"> Registrar o meu dia
-        </button>
+            <img src="./assets/img/plus.svg" alt="plus roxo" />
 
+            <div>
+                Registrar o meu dia
+            </div>
+        </button>
     </header>
 
-    <form id="form-habitos">
-
+    <form id="form-habits">
         <div class="habits">
-            <div class="habit">
-                📚
-            </div>
-            <div class="habit">
-                💧
-            </div>
-            <div class="habit">
-                🏋🏻‍♂️
-            </div>
+            <div class="habit" data-name="run">🏃🏽‍♂️</div>
+            <div class="habit" data-name="water">💧</div>
+            <div class="habit" data-name="food">🍎</div>
         </div>
 
-        <div class="days">
-
-            <div class="day">
-                <div>03/01</div>
-
-                <input type="checkbox" name="estudar" />
-                <input type="checkbox" name="água" />
-                <input type="checkbox" name="treino" />
-
-            </div>
-
-            <div class="day">
-                <div>04/01</div>
-
-                <input type="checkbox" name="estudar" />
-                <input type="checkbox" name="água" />
-                <input type="checkbox" name="treino" />
-
-            </div>
-
-        </div>
-
+        <div class="days"></div>
     </form>
 
-
-</body>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-<script src="./assets/js/script.js"></script>
+    <script src="./assets/js/input.js"></script>
+    <script src="./assets/js/script.js"></script>
 
 </html>
