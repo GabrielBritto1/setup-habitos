@@ -10,6 +10,9 @@
     justify-content: space-between;
 
     padding: 48px;
+
+    position: fixed;
+    width: 100%;
 }
 
 body {
@@ -21,7 +24,8 @@ body {
 
 #form-habits {
     display: flex;
-    padding: 0 48px;
+    padding: 180px 48px 48px;
+    width: fit-content;
 }
 
 .habits {
@@ -117,4 +121,11 @@ input:checked {
 .botao_registro:active {
     position: relative;
     top: 2px;
+}
+
+@media (max-width:570px) {
+    .botao_registro {
+        display: none;
+    }
+
 }
