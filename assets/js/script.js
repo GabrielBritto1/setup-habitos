@@ -12,11 +12,11 @@ function criarDia() {
     const dayExists = nlwSetup.dayExists(today)
 
     if (dayExists) {
-        alert('Day already exist')
+        // alert('Day already exist')
         return
     }
 
-    alert('Add with success')
+    // alert('Add with success')
     nlwSetup.addDay(today)
 }
 
